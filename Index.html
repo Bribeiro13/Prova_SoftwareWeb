@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Otavio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Prova">
+        <form id="form">
+            <table>
+                <tr>
+                    <td class="td"><label for="nome"><strong>Nome:</strong></label></td>
+                    <td class="td"><input type="text" id="nome"></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="matricula"><strong>Matrícula:</strong></label></td>
+                    <td class="td"><input type="text" id="matricula"></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="nota1"><strong>Nota 1:</strong></label></td>
+                    <td class="td"><input type="number" id="nota1" ></td>
+                </tr>
+                <tr>
+                    <td class="td"><label for="nota2"><strong>Nota 2:</strong></label></td>
+                    <td class="td"><input type="number" id="nota2"></td>
+                </tr>
+                <tr>
+                    <td id="tdr" colspan="2">
+                        <button id="Enviar" type="submit">Enviar</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <table id="info">
+            <thead>
+                <tr>
+                    <th><strong></strong>Nome</th>
+                    <th>Matrícula</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
